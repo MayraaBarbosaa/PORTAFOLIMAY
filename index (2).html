@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>May Barbosa — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=League+Spartan:wght@400;700&family=Manrope:wght@200;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER / NAV
+  ═══════════════════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header__logo">MB</div>
+    <nav class="header__nav" role="navigation" aria-label="Navegación principal">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#sobre-mi" class="nav__link">Sobre Mí</a></li>
+        <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav__link">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 1 — HOME / HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="home" aria-label="Inicio">
+      <div class="hero__grid">
+
+        <div class="hero__photo-wrap reveal">
+          <div class="hero__photo-placeholder" aria-label="Foto de May Barbosa">
+            <span class="hero__photo-label"></span>
+          </div>
+          <div class="hero__tag">Diseñadora Gráfica</div>
+        </div>
+
+        <div class="hero__content reveal delay-1">
+          <h1 class="hero__name">MAY<br/>BARBOSA</h1>
+          <p class="hero__sub">PORTAFOLIO</p>
+          <p class="hero__desc">
+            Creo piezas visuales que comunican con intención, mezclo el diseño análogo con interfaces digitales para construir experiencias únicas y memorables.
+          </p>
+          <div class="hero__cta">
+            <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn--secondary">Contáctame</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="hero__deco" aria-hidden="true"></div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 2 — SOBRE MÍ
+    ═══════════════════════════════════════════ -->
+    <section class="sobre-mi section" id="sobre-mi" aria-label="Sobre mí">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 01</span>
+          <h2 class="section-title">Sobre Mí</h2>
+        </div>
+
+        <div class="sobre-mi__grid">
+          <div class="sobre-mi__bio reveal">
+            <p class="sobre-mi__text">
+              Soy estudiante de Ingeniería Multimedia y me encanta crear experiencias digitales que conecten. Trabajo combinando lo creativo con lo técnico: producción y edición de audio y video, contenido digital, estrategias de marketing y diseño para redes. Todo esto me permite crear proyectos visuales que se ven bien, funcionan bien y están pensados para las personas.
+
+​
+
+Además, he tenido contacto directo con usuarios gracias a mi experiencia como asesora comercial, lo que me ha dado una visión mucho más amplia del mundo del marketing y del comportamiento real de los usuarios. Sé qué preguntan, qué buscan, cómo toman decisiones y qué detalles influyen en su experiencia de compra. Conozco esa “otra parte de la estrategia” que normalmente no se ve en el escritorio, y eso me ayuda a crear contenido y soluciones multimedia que realmente funcionan en la práctica y se conectan con el usuario final.
+            </p>
+            <p class="sobre-mi__text">
+              Trabajo con herramientas digitales e ilustración manual, buscando siempre ese punto donde lo orgánico y lo digital se encuentran para crear algo diferente.
+            </p>
+            <div class="sobre-mi__badges">
+              <span class="badge">Ilustración</span>
+              <span class="badge">UI/UX</span>
+              <span class="badge">Branding</span>
+              <span class="badge">Tipografía</span>
+              <span class="badge">Diseño Estratégico</span>
+              <span class="badge">Fotografía</span>
+            </div>
+          </div>
+
+          <div class="sobre-mi__skills reveal delay-1">
+            <h3 class="skills__title">Herramientas</h3>
+            <ul class="skills__list" role="list">
+              <li class="skill-item">
+                <span class="skill-name">Adobe Illustrator</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar__fill" style="--w:70%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Figma</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar__fill" style="--w:%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Photoshop</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar__fill" style="--w:75%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">HTML / CSS / JS</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar__fill" style="--w:65%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">After Effects</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar__fill" style="--w:60%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 3 — PROYECTOS (collage) #11111111111111111111111111
+    ═══════════════════════════════════════════ -->
+    <section class="proyectos section" id="proyectos" aria-label="Proyectos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 02</span>
+          <h2 class="section-title">Proyectos</h2>
+        </div>
+        <p class="proyectos__subtitle reveal">Selección de trabajos realizados durante la carrera</p>
+
+        <!-- Collage grid -->
+        <div class="proyectos__collage">
+
+          <!-- Tarjeta grande vertical -->
+          <article class="card card--tall reveal" data-index="0">
+            <div class="card__img-wrap">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 1"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">Branding</span>
+              <h3 class="card__title">Proyecto 01</h3>
+              <p class="card__desc">Identidad visual para marca artesanal con ilustración análoga integrada a sistema digital.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta horizontal -->
+          <article class="card card--wide reveal delay-1" data-index="1">
+            <div class="card__img-wrap">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 2"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">UI/UX</span>
+              <h3 class="card__title">Proyecto 02</h3>
+              <p class="card__desc">Diseño de interfaz multimedia interactiva con patrones de navegación accesibles.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta cuadrada con borde azul (como wireframe) -->
+          <article class="card card--square reveal delay-2" data-index="2">
+            <div class="card__img-wrap card__img-wrap--accent">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 3"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">Ilustración</span>
+              <h3 class="card__title">Proyecto 03</h3>
+              <p class="card__desc">Serie ilustrativa análoga digitalizada con composición editorial.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Nombre grande — decorativo, del wireframe -->
+          <div class="proyectos__deco-text reveal delay-3" aria-hidden="true">
+            NOMBRE<br/>PROYECTO
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 3 — PROYECTOS (collage) #222222222222222222222222222222222222222
+    ═══════════════════════════════════════════ -->
+
+      <section class="proyectos section" id="proyectos" aria-label="Proyectos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 03</span>
+          <h2 class="section-title">Proyectos</h2>
+        </div>
+        <p class="proyectos__subtitle reveal">Selección de trabajos realizados durante la carrera</p>
+
+        <!-- Collage grid -->
+        <div class="proyectos__collage">
+
+          <!-- Tarjeta grande vertical -->
+          <article class="card card--tall reveal" data-index="0">
+            <div class="card__img-wrap">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 1"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">Branding</span>
+              <h3 class="card__title">Proyecto 01</h3>
+              <p class="card__desc">Identidad visual para marca artesanal con ilustración análoga integrada a sistema digital.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta horizontal -->
+          <article class="card card--wide reveal delay-1" data-index="1">
+            <div class="card__img-wrap">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 2"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">UI/UX</span>
+              <h3 class="card__title">Proyecto 02</h3>
+              <p class="card__desc">Diseño de interfaz multimedia interactiva con patrones de navegación accesibles.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Tarjeta cuadrada con borde azul (como wireframe) -->
+          <article class="card card--square reveal delay-2" data-index="2">
+            <div class="card__img-wrap card__img-wrap--accent">
+              <div class="card__img-placeholder" aria-label="Imagen proyecto 3"></div>
+            </div>
+            <div class="card__body">
+              <span class="card__cat">Ilustración</span>
+              <h3 class="card__title">Proyecto 03</h3>
+              <p class="card__desc">Serie ilustrativa análoga digitalizada con composición editorial.</p>
+              <a href="#" class="btn btn--primary btn--sm">Ver más</a>
+            </div>
+          </article>
+
+          <!-- Nombre grande — decorativo, del wireframe -->
+          <div class="proyectos__deco-text reveal delay-3" aria-hidden="true">
+            NOMBRE<br/>PROYECTO
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 4 — PROCESO DE DISEÑO
+    ═══════════════════════════════════════════ -->
+    <section class="proceso section section--alt" id="proceso" aria-label="Proceso de diseño">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 03</span>
+          <h2 class="section-title">Proceso de Diseño</h2>
+        </div>
+
+        <div class="proceso__steps">
+          <div class="proceso__step reveal">
+            <div class="proceso__num">01</div>
+            <h3 class="proceso__step-title">Bocetos</h3>
+            <p class="proceso__step-desc">Exploración manual de ideas, composición y jerarquía visual antes de digitalizar.</p>
+            <div class="proceso__img-placeholder" aria-label="Bocetos"></div>
+          </div>
+          <div class="proceso__connector" aria-hidden="true"></div>
+          <div class="proceso__step reveal delay-1">
+            <div class="proceso__num">02</div>
+            <h3 class="proceso__step-title">Wireframes</h3>
+            <p class="proceso__step-desc">Estructura de baja fidelidad para definir flujos, navegación y distribución de contenido.</p>
+            <div class="proceso__img-placeholder" aria-label="Wireframes"></div>
+          </div>
+          <div class="proceso__connector" aria-hidden="true"></div>
+          <div class="proceso__step reveal delay-2">
+            <div class="proceso__num">03</div>
+            <h3 class="proceso__step-title">Sistema Visual</h3>
+            <p class="proceso__step-desc">Paleta cromática, tipografía, espaciado y componentes definidos para coherencia gráfica.</p>
+            <div class="proceso__img-placeholder" aria-label="Sistema visual"></div>
+          </div>
+          <div class="proceso__connector" aria-hidden="true"></div>
+          <div class="proceso__step reveal delay-3">
+            <div class="proceso__num">04</div>
+            <h3 class="proceso__step-title">Prototipo</h3>
+            <p class="proceso__step-desc">Alta fidelidad interactiva con flujos funcionales, microinteracciones y componentes reales.</p>
+            <div class="proceso__img-placeholder" aria-label="Prototipo"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 5 — COMPONENTE MULTIMEDIA
+    ═══════════════════════════════════════════ -->
+    <section class="multimedia section" id="multimedia" aria-label="Componente multimedia">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 04</span>
+          <h2 class="section-title">Componente Multimedia</h2>
+        </div>
+
+        <div class="multimedia__grid">
+          <div class="media-card reveal" tabindex="0" role="button" aria-label="Ver galería de imágenes">
+            <div class="media-card__icon" aria-hidden="true"></div>
+            <h3 class="media-card__title">Galería Visual</h3>
+            <p class="media-card__desc">Colección de piezas gráficas, ilustraciones y composiciones digitales.</p>
+            <span class="media-card__tag">Imagen</span>
+          </div>
+          <div class="media-card reveal delay-1" tabindex="0" role="button" aria-label="Ver showreel de video">
+            <div class="media-card__icon" aria-hidden="true"></div>
+            <h3 class="media-card__title">Showreel</h3>
+            <p class="media-card__desc">Compilado de animaciones y piezas de motion graphics desarrolladas en el curso.</p>
+            <span class="media-card__tag">Video</span>
+          </div>
+          <div class="media-card reveal delay-2" tabindex="0" role="button" aria-label="Explorar animaciones interactivas">
+            <div class="media-card__icon" aria-hidden="true"></div>
+            <h3 class="media-card__title">Animación</h3>
+            <p class="media-card__desc">Microinteracciones, transiciones y elementos animados que enriquecen la experiencia.</p>
+            <span class="media-card__tag">Animación</span>
+          </div>
+          <div class="media-card reveal delay-3" tabindex="0" role="button" aria-label="Explorar experiencias interactivas">
+            <div class="media-card__icon" aria-hidden="true"></div>
+            <h3 class="media-card__title">Interacción</h3>
+            <p class="media-card__desc">Prototipos funcionales con flujos de usuario y elementos de interacción real.</p>
+            <span class="media-card__tag">Interacción</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN 7 — CONTACTO / CIERRE
+    ═══════════════════════════════════════════ -->
+    <section class="contacto section" id="contacto" aria-label="Contacto">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">/ 06</span>
+          <h2 class="section-title">Contacto</h2>
+        </div>
+
+        <div class="contacto__layout">
+          <div class="contacto__cta reveal">
+            <p class="contacto__tagline">Me encantaría que trabajemos juntos</p>
+            <p class="contacto__sub">Estás listo para crear:</p>
+            <div class="contacto__redes" role="list" aria-label="Redes sociales">
+              <a href="#" class="red-btn" role="listitem" aria-label="Instagram">Instagram</a>
+              <a href="#" class="red-btn" role="listitem" aria-label="Behance">Behance</a>
+              <a href="#" class="red-btn" role="listitem" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+
+          <form class="contacto__form reveal delay-1" novalidate aria-label="Formulario de contacto">
+            <div class="form-group">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Correo</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="correo@ejemplo.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" class="form-input form-textarea" placeholder="Cuéntame sobre tu proyecto..." rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+            <p class="form-note" role="status" aria-live="polite" id="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">MB</div>
+        <p class="footer__copy">© 2025 May Barbosa. Todos los derechos reservados.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Navegación del pie de página">
+        <p class="footer__nav-title">Enlace rápidos</p>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social" aria-label="Redes sociales">
+        <p class="footer__nav-title">Redes sociales</p>
+        <ul role="list">
+          <li><a href="#" aria-label="Instagram">[Icono IG]</a></li>
+          <li><a href="#" aria-label="LinkedIn">[Icono LI]</a></li>
+          <li><a href="#" aria-label="Behance">[Icono Bh]</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Volver al inicio" title="Volver al inicio">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
